@@ -1,0 +1,12 @@
+.modalPage{
+  .header {
+    --background: #00316D!important;
+  }
+
+  .registros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}

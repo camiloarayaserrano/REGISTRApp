@@ -1,0 +1,43 @@
+
+ion-toolbar {
+  --background: #f5f5f3;
+
+  ion-button {
+    text-transform: initial;
+  }
+}
+
+ion-content.background {
+
+  #content {
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    p{
+      color: #fff;
+    }
+    .username {
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-weight: 500;
+      font-size: 21px;
+      color: #fff;
+    }
+
+    ion-button {
+      border-radius: 50px;
+      margin-top: 25px;
+      height: 48px;
+      font-size: 18px;
+      text-transform: initial;
+      color: white!important;
+    }
+
+    .recoveryLink {
+      color: #0b7be4;
+      text-decoration: underline;
+    }
+  }
+}
